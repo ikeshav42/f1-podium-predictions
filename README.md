@@ -66,3 +66,7 @@ python make_card.py predictions/brazil_2026.csv "Brazilian GP 2026" "Predicted p
 - Thanks to [Mariana Antaya](https://github.com/mar-antaya) for her F1 prediction project, which got me started on this.
 
 This is a personal project and it is not affiliated with Formula 1.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
