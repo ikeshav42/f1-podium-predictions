@@ -1,0 +1,7 @@
+fastf1>=3.6,<4
+scikit-learn>=1.6
+xgboost>=3.0
+pandas
+numpy
+requests
+matplotlib
