@@ -14,7 +14,7 @@ All notebooks are the same template. Only the settings cell at the top changes (
 Notes on the table:
 
 - Mexico was re-run after the race with the final version of the code, using only data from before the race. The picks can differ from what I posted at the time.
-- The Brazil prediction was committed before the race. My first version used the raw qualifying order, which was wrong: Verstappen started 22nd. I corrected the grid, the drivers behind him move up a place, and re-ran the notebook.
+- Brazil: the first version was committed on 7 Nov, before the race, but it used the raw qualifying order, which was wrong (Verstappen started 22nd). I corrected the grid and re-ran it during the race, committed 8 Nov 17:43 UTC, so the corrected picks (Russell, Norris, Leclerc) are not a true pre-race prediction. The first version had Russell, Norris and Verstappen.
 - The Mexico notebook still uses the older grid code. I will re-run it with the same grid handling as Brazil.
 - I will keep the misses in the table.
 
