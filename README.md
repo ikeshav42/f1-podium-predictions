@@ -9,13 +9,16 @@ All notebooks are the same template. Only the settings cell at the top changes (
 | Race | Predicted podium | Actual podium | Right |
 |---|---|---|---|
 | Mexico City (1 Nov) | Russell, Verstappen, Hamilton | Verstappen, Hamilton, Antonelli | 2 of 3 |
-| Brazil (8 Nov) | Russell, Norris, Leclerc | to be added after the race | |
+| Brazil (8 Nov), first version | Russell, Norris, Verstappen | Norris, Verstappen, Hadjar | 2 of 3 |
+| Brazil (8 Nov), corrected version | Russell, Norris, Leclerc | Norris, Verstappen, Hadjar | 1 of 3 |
 
 Notes on the table:
 
 - Mexico was re-run after the race with the final version of the code, using only data from before the race. The picks can differ from what I posted at the time.
-- Brazil: the first version was committed on 7 Nov, before the race, but it used the raw qualifying order, which was wrong (Verstappen started 22nd). I corrected the grid and re-ran it during the race, committed 8 Nov 17:43 UTC, so the corrected picks (Russell, Norris, Leclerc) are not a true pre-race prediction. The first version had Russell, Norris and Verstappen.
-- The Mexico notebook still uses the older grid code. I will re-run it with the same grid handling as Brazil.
+- Brazil: the first version was committed on 7 Nov, before the race, but it used the raw qualifying order, which was wrong (penalties moved Verstappen to the back). I corrected the grid and re-ran it during the race, committed 8 Nov 17:43 UTC, so the corrected picks (Russell, Norris, Leclerc) are not a true pre-race prediction. The first version had Russell, Norris and Verstappen.
+- The official grid had Verstappen 21st and Perez 22nd. I put Verstappen 22nd in the corrected run, so that was one slot off.
+- Hadjar (5th on the real grid) was the surprise podium, the model gave him about 10%.
+- The Mexico notebook was re-run with the same grid handling as Brazil. The picks did not change.
 - I will keep the misses in the table.
 
 ## How it works
