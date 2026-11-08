@@ -9,12 +9,13 @@ All notebooks are the same template. Only the settings cell at the top changes (
 | Race | Predicted podium | Actual podium | Right |
 |---|---|---|---|
 | Mexico City (1 Nov) | Russell, Verstappen, Hamilton | Verstappen, Hamilton, Antonelli | 2 of 3 |
-| Brazil (8 Nov) | Russell, Norris, Verstappen | to be added after the race | |
+| Brazil (8 Nov) | Russell, Norris, Leclerc | to be added after the race | |
 
 Notes on the table:
 
 - Mexico was re-run after the race with the final version of the code, using only data from before the race. The picks can differ from what I posted at the time.
-- The Brazil prediction was committed before the race, no penalties were announced at that point.
+- The Brazil prediction was committed before the race. My first version used the raw qualifying order, which was wrong: Verstappen started 22nd. I corrected the grid, the drivers behind him move up a place, and re-ran the notebook.
+- The Mexico notebook still uses the older grid code. I will re-run it with the same grid handling as Brazil.
 - I will keep the misses in the table.
 
 ## How it works

@@ -1,23 +1,23 @@
 ,driver,team_name,grid,podium_chance
 1,RUS,Mercedes,2,0.625
 2,NOR,McLaren,1,0.617
-3,VER,Red Bull Racing,16,0.518
-4,LEC,Ferrari,4,0.469
-5,ANT,Mercedes,3,0.363
+3,LEC,Ferrari,4,0.469
+4,ANT,Mercedes,3,0.363
+5,VER,Red Bull Racing,22,0.347
 6,LAW,Racing Bulls,5,0.143
 7,HAD,Red Bull Racing,7,0.105
 8,HAM,Ferrari,11,0.08
 9,PIA,McLaren,12,0.017
-10,GAS,Alpine,18,0.01
+10,GAS,Alpine,17,0.01
 11,HUL,Audi,6,0.008
 12,BEA,Haas F1 Team,8,0.005
 13,SAI,Williams,15,0.005
 14,LIN,Racing Bulls,14,0.004
-15,PER,Cadillac,21,0.004
+15,PER,Cadillac,20,0.004
 16,ALB,Williams,10,0.003
 17,ALO,Aston Martin,9,0.003
 18,CAM,Haas F1 Team,13,0.002
-19,STR,Aston Martin,19,0.002
-20,BOR,Audi,22,0.002
-21,COL,Alpine,17,0.002
-22,BOT,Cadillac,20,0.002
+19,BOT,Cadillac,19,0.002
+20,BOR,Audi,21,0.002
+21,COL,Alpine,16,0.002
+22,STR,Aston Martin,18,0.002
