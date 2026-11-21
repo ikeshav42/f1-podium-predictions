@@ -2,7 +2,7 @@
 
 Before each race this season I predict the podium from the qualifying result and write about it on LinkedIn and Medium. This repo has one notebook per race, so you can see exactly how each prediction was made and check it against what happened.
 
-All notebooks are the same template. Only the settings cell at the top changes (session numbers, circuit, penalties).
+All notebooks are copies of `notebooks/Race_Template.ipynb`. For a new race, copy the template, change only the settings cell at the top (date, circuit, session numbers, penalties from the official grid) and run all cells.
 
 ## Scorecard
 
@@ -40,7 +40,7 @@ Things that did not help:
 
 - practice pace (best lap gap to the fastest car in practice)
 - how wet qualifying was
-- air temperature in qualifying (Las Vegas was cold, about 13 C, but only 3 cold qualifying sessions are in the data, and the top models pick the same drivers with or without it)
+- air temperature in qualifying (I tried it for Las Vegas, which was cold at about 13 C, but only 3 cold sessions are in the data and the picks did not change, so it is not in the model)
 - recent form without the grid (clearly worse)
 
 Only a handful of past qualifying sessions were wet, so the rain input does not have much to learn from.
@@ -58,7 +58,7 @@ Only a handful of past qualifying sessions were wet, so the rain input does not 
 pip install -r requirements.txt
 ```
 
-Open a notebook in `notebooks/` and run all cells. The first run takes a few minutes because it downloads about 90 race weekends from OpenF1, after that it reads from a local cache folder. OpenF1 blocks access while a session is running, so run it between sessions.
+Open `notebooks/Race_Template.ipynb` (or any race notebook) and run all cells. The first run takes a few minutes because it downloads about 90 race weekends from OpenF1, after that it reads from a local cache folder. OpenF1 blocks access while a session is running, so run it between sessions.
 
 `make_card.py` draws the podium image from a predictions csv, for example:
 

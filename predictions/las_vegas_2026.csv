@@ -1,23 +1,23 @@
 ,driver,team_name,grid,podium_chance
-1,VER,Red Bull Racing,1,0.939
-2,HAD,Red Bull Racing,4,0.627
-3,RUS,Mercedes,2,0.463
-4,NOR,McLaren,3,0.415
-5,LIN,Racing Bulls,5,0.151
-6,LEC,Ferrari,10,0.138
-7,ANT,Mercedes,6,0.133
-8,HAM,Ferrari,11,0.084
-9,PIA,McLaren,17,0.023
-10,LAW,Racing Bulls,7,0.017
-11,GAS,Alpine,8,0.009
-12,ALO,Aston Martin,18,0.007
-13,HUL,Audi,12,0.007
-14,BEA,Haas F1 Team,22,0.006
-15,PER,Cadillac,16,0.006
-16,SAI,Williams,20,0.006
-17,BOR,Audi,13,0.005
-18,STR,Aston Martin,21,0.004
-19,CAM,Haas F1 Team,15,0.003
-20,COL,Alpine,9,0.003
-21,ALB,Williams,14,0.003
-22,BOT,Cadillac,19,0.003
+1,VER,Red Bull Racing,1,0.933
+2,HAD,Red Bull Racing,4,0.62
+3,RUS,Mercedes,2,0.491
+4,NOR,McLaren,3,0.43
+5,ANT,Mercedes,6,0.19
+6,LIN,Racing Bulls,5,0.161
+7,LEC,Ferrari,10,0.104
+8,HAM,Ferrari,11,0.069
+9,PIA,McLaren,17,0.031
+10,LAW,Racing Bulls,7,0.025
+11,HUL,Audi,12,0.008
+12,BEA,Haas F1 Team,22,0.007
+13,GAS,Alpine,8,0.007
+14,BOR,Audi,13,0.006
+15,ALO,Aston Martin,18,0.005
+16,PER,Cadillac,16,0.005
+17,SAI,Williams,20,0.005
+18,COL,Alpine,9,0.002
+19,CAM,Haas F1 Team,15,0.002
+20,ALB,Williams,14,0.002
+21,STR,Aston Martin,21,0.002
+22,BOT,Cadillac,19,0.001
