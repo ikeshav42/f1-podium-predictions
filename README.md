@@ -11,6 +11,7 @@ All notebooks are the same template. Only the settings cell at the top changes (
 | Mexico City (1 Nov) | Russell, Verstappen, Hamilton | Verstappen, Hamilton, Antonelli | 2 of 3 |
 | Brazil (8 Nov), first version | Russell, Norris, Verstappen | Norris, Verstappen, Hadjar | 2 of 3 |
 | Brazil (8 Nov), corrected version | Russell, Norris, Leclerc | Norris, Verstappen, Hadjar | 1 of 3 |
+| Las Vegas (22 Nov UTC) | Verstappen, Hadjar, Russell | to be added after the race | |
 
 Notes on the table:
 
@@ -19,6 +20,7 @@ Notes on the table:
 - The official grid had Verstappen 21st and Perez 22nd. I put Verstappen 22nd in the corrected run, so that was one slot off.
 - Hadjar (5th on the real grid) was the surprise podium, the model gave him about 10%.
 - The Mexico notebook was re-run with the same grid handling as Brazil. The picks did not change.
+- Las Vegas: made after qualifying and before the race. I checked the grid against the official one this time (five penalties: Antonelli, Piastri, Sainz, Stroll, Bearman). The Mexico notebook uses the same grid code now and its picks did not change.
 - I will keep the misses in the table.
 
 ## How it works
@@ -38,6 +40,7 @@ Things that did not help:
 
 - practice pace (best lap gap to the fastest car in practice)
 - how wet qualifying was
+- air temperature in qualifying (Las Vegas was cold, about 13 C, but only 3 cold qualifying sessions are in the data, and the top models pick the same drivers with or without it)
 - recent form without the grid (clearly worse)
 
 Only a handful of past qualifying sessions were wet, so the rain input does not have much to learn from.

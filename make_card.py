@@ -14,7 +14,7 @@ BG, FG, MUTED, RED, GREY = '#14161a', '#f2f3f5', '#9aa0a6', '#F04747', '#4a4f57'
 TEAMS = {'Red Bull Racing': 'Red Bull', 'Haas F1 Team': 'Haas'}
 NAMES = {'RUS': 'Russell', 'NOR': 'Norris', 'VER': 'Verstappen', 'LEC': 'Leclerc', 'ANT': 'Antonelli',
          'HAM': 'Hamilton', 'LAW': 'Lawson', 'HAD': 'Hadjar', 'PIA': 'Piastri', 'HUL': 'Hulkenberg',
-         'BEA': 'Bearman', 'ALO': 'Alonso', 'ALB': 'Albon', 'SAI': 'Sainz', 'GAS': 'Gasly'}
+         'BEA': 'Bearman', 'ALO': 'Alonso', 'ALB': 'Albon', 'SAI': 'Sainz', 'GAS': 'Gasly', 'LIN': 'Lindblad', 'CAM': 'Camara', 'COL': 'Colapinto', 'BOR': 'Bortoleto', 'PER': 'Perez'}
 
 csv_path, title, subtitle, out_path = sys.argv[1:5]
 
