@@ -11,7 +11,7 @@ All notebooks are copies of `notebooks/Race_Template.ipynb`. For a new race, cop
 | Mexico City (1 Nov) | Russell, Verstappen, Hamilton | Verstappen, Hamilton, Antonelli | 2 of 3 |
 | Brazil (8 Nov), first version | Russell, Norris, Verstappen | Norris, Verstappen, Hadjar | 2 of 3 |
 | Brazil (8 Nov), corrected version | Russell, Norris, Leclerc | Norris, Verstappen, Hadjar | 1 of 3 |
-| Las Vegas (22 Nov UTC) | Verstappen, Hadjar, Russell | to be added after the race | |
+| Las Vegas (22 Nov UTC) | Verstappen, Hadjar, Russell | Verstappen, Norris, Piastri | 1 of 3 |
 
 Notes on the table:
 
@@ -21,6 +21,7 @@ Notes on the table:
 - Hadjar (5th on the real grid) was the surprise podium, the model gave him about 10%.
 - The Mexico notebook was re-run with the same grid handling as Brazil. The picks did not change.
 - Las Vegas: made after qualifying and before the race. I checked the grid against the official one this time (five penalties: Antonelli, Piastri, Sainz, Stroll, Bearman). The Mexico notebook uses the same grid code now and its picks did not change.
+- Las Vegas result: Verstappen won, Norris 2nd, Piastri 3rd after starting 17th (10 place power unit penalty). Hadjar was running 3rd when his front wing broke on lap 26 and he finished 14th in the race-day reports and 15th (10 seconds later) in the final classification. I could not find the reason for the change. Russell hit the wall on lap 48 and finished 9th. "Top 3 on the grid" (Verstappen, Russell, Norris) would have got 2 of 3 here, so the model did worse than the simple rule this time. Piastri was only 3% in my model.
 - I will keep the misses in the table.
 
 ## How it works
